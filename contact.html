@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <a href="index2.html" class="logo">Home</a>
+                <ul class="nav-links">
+                    <li id="li1"><a href="news.html" target="_blank">News</a></li>
+                    <li id="li1"><a href="resources.html" target="_blank">Resources</a></li>
+                    <li id="li1"><a href="events.html" target="_blank">Events</a></li>
+                    <li id="li1"><a href="contact.html" target="_blank">Contact Us</a></li>
+                    <li id="li1"><a href="aboutus.html" target="_blank">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Have a question or feedback about our website? Please let us know below.</p>
+            <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="query">Your Query or Feedback:</label>
+                <textarea id="query" name="query" placeholder="Type your message here" required></textarea>
+
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+            <div id="response-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Student News Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
